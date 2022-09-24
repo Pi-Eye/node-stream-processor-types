@@ -1,0 +1,29 @@
+{
+  "name": "node-stream-processor-types",
+  "version": "1.0.0",
+  "description": "Types for node-stream-processor to avoid installing full stream processor",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "lint": "eslint ./**/*.ts",
+    "build": "tsc -b",
+    "postinstall": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pi-Eye/node-stream-processor-types.git"
+  },
+  "author": "Bwu1324",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Pi-Eye/node-stream-processor-types/issues"
+  },
+  "homepage": "https://github.com/Pi-Eye/node-stream-processor-types#readme",
+  "dependencies": {
+    "@types/node": "^18.11.9",
+    "typescript": "^4.8.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.27.0"
+  }
+}
