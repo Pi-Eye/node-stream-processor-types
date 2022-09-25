@@ -32,5 +32,5 @@ export type DeviceSettings = {
 
 export type Processed = {
   compressed: Buffer;
-  motion: Buffer;
+  motion: boolean;
 };

@@ -6,8 +6,7 @@
   "types": "./lib/index.d.ts",
   "scripts": {
     "lint": "eslint ./**/*.ts",
-    "build": "tsc -b",
-    "postinstall": "npm run build"
+    "build": "tsc -b"
   },
   "repository": {
     "type": "git",
