@@ -28,5 +28,5 @@ export declare type DeviceSettings = {
 };
 export declare type Processed = {
     compressed: Buffer;
-    motion: Buffer;
+    motion: boolean;
 };
