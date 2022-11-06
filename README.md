@@ -1,4 +1,4 @@
-# Node Stream Processor
+# Node Stream Processor Types
 
 ## About
 
